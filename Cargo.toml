@@ -1,0 +1,20 @@
+[package]
+name = "heart"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.winit]
+version = "0.30.9"
+
+[dependencies.wgpu]
+version = "24.0.1"
+
+[dependencies.crossbeam]
+version = "0.8.4"
+
+[dependencies.png]
+version = "0.17.16"
+
+[dependencies.zerocopy]
+version = "0.8.23"
+features = ["derive"]
